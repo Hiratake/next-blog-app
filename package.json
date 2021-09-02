@@ -1,15 +1,36 @@
 {
-  "name": "learn-starter",
+  "name": "@hiratake/next-blog-app",
   "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+  "description": "next.js blog app",
+  "keywords": [
+    "next",
+    "react"
+  ],
+  "homepage": "https://github.com/Hiratake/next-blog-app",
+  "bugs": "https://github.com/Hiratake/next-blog-app/issues",
+  "license": "UNLICENSED",
+  "author": {
+    "name": "Hiratake",
+    "url": "https://hiratake.xyz/",
+    "email": "hiratake@hiratake.xyz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hiratake/next-blog-app.git"
   },
   "dependencies": {
     "next": "^11.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
+    "husky": "^7.0.2"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   }
 }
